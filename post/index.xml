@@ -5,17 +5,15 @@
     <link>https://arjun-i.github.io/ALL-FSLResearch/post/</link>
     <description>Recent content in Procedural Summary on Academy of Science Research Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 09 Apr 2017 10:58:08 -0400</lastBuildDate><atom:link href="https://arjun-i.github.io/ALL-FSLResearch/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://arjun-i.github.io/ALL-FSLResearch/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter I: The Grand Hall</title>
+      <title>Procedural Summary for Our Few Shot Learning Approach</title>
       <link>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
+      <description>For the purposes of our research, we will be using the C-NMC 2019 Challenge Dataset. Our dataset has only 73 subjects, but the amount of cell images received from the subjects can negate any potential issues with the lack of subjects. For our approach, we plan on using a Siamese Network to gain the ability to classify images based on similarity. Some pre-existing weights already exist, so they may be used to save any potential computational costs that may arise with the model.</description>
     </item>
-
+    
   </channel>
 </rss>

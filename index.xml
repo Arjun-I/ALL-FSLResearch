@@ -5,35 +5,33 @@
     <link>https://arjun-i.github.io/ALL-FSLResearch/</link>
     <description>Recent content in 2021-2022 Research into ALL using Few Shot Learning on Academy of Science Research Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 09 Apr 2017 10:58:08 -0400</lastBuildDate><atom:link href="https://arjun-i.github.io/ALL-FSLResearch/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://arjun-i.github.io/ALL-FSLResearch/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter I: The Grand Hall</title>
+      <title>Procedural Summary for Our Few Shot Learning Approach</title>
       <link>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
+      <description>For the purposes of our research, we will be using the C-NMC 2019 Challenge Dataset. Our dataset has only 73 subjects, but the amount of cell images received from the subjects can negate any potential issues with the lack of subjects. For our approach, we plan on using a Siamese Network to gain the ability to classify images based on similarity. Some pre-existing weights already exist, so they may be used to save any potential computational costs that may arise with the model.</description>
     </item>
-
+    
     <item>
       <title>Solving Problems with Current Methods and Past Research</title>
       <link>https://arjun-i.github.io/ALL-FSLResearch/about/problems-in-past/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-
+      
       <guid>https://arjun-i.github.io/ALL-FSLResearch/about/problems-in-past/</guid>
       <description>The traditional classification by eye is extremely prone to human error due to the simple number of factors that affect a person’s perception, decision making, and thought process. It is also extremely time consuming and expensive as the pathologist would have to spend a great amount of time looking for the individual defining characteristics in the many different morphological variations of the cancerous and healthy cells. This can lead to a greater chance of misdiagnosis and worsening of the patient&amp;rsquo;s condition.</description>
     </item>
-
+    
     <item>
       <title>Traditional Classification of Acute Lymphoblastic Leukemia (ALL)</title>
       <link>https://arjun-i.github.io/ALL-FSLResearch/about/why-all/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-
+      
       <guid>https://arjun-i.github.io/ALL-FSLResearch/about/why-all/</guid>
       <description>Defining characteristics of ALL and healthy cells look extremely similar as seen above.   ALL is caused by genetic mutations that tell the cells to continue growing and dividing instead of following the standard process. It causes rapid creation of immature white blood cells (lymphoblasts) inside the bone marrow instead of mature white blood cells (lymphocytes). There are two types of acute lymphoblastic leukemia: B-lymphoblastic leukemia and T-lymphoblastic leukemia.</description>
     </item>
-
+    
   </channel>
 </rss>
