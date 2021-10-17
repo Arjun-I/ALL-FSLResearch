@@ -144,7 +144,7 @@
       
        
           <h1 class="flex-none">
-            Recent Background
+            Recent Procedural Summary
           </h1>
         
 
@@ -161,14 +161,15 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://arjun-i.github.io/ALL-FSLResearch/about/problems-in-past/" class="color-inherit dim link">
-            Solving Problems with Current Methods and Past Research
+          <a href="https://arjun-i.github.io/ALL-FSLResearch/post/step1/" class="color-inherit dim link">
+            1. Train Siamese Network with Identical CNNs on Vast Unrelated Dataset (Ex. ImageNet or Omniglot)
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          The traditional classification by eye is extremely prone to human error due to the simple number of factors that affect a person’s perception, decision making, and thought process. It is also extremely time consuming and expensive as the pathologist would have to spend a great amount of time looking for the individual defining characteristics in the many different morphological variations of the cancerous and healthy cells. This can lead to a greater chance of misdiagnosis and worsening of the patient&rsquo;s condition.
+          We will first start the process of training a Siamese network with identical convolutional neural networks on a large dataset like ImageNet or Omniglot. These images are not required to similar to our cell-based dataset and are not expected to be, as we are training the Siamese Network for the sole purpose of gathering weights that we can use for our model based on a small support sample.
+ An Example of a Siamese Network in Action   These weights will help to classify similar images from different images given a query.
         </div>
-          <a href="https://arjun-i.github.io/ALL-FSLResearch/about/problems-in-past/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://arjun-i.github.io/ALL-FSLResearch/post/step1/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -185,14 +186,38 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://arjun-i.github.io/ALL-FSLResearch/about/why-all/" class="color-inherit dim link">
-            Traditional Classification of Acute Lymphoblastic Leukemia (ALL)
+          <a href="https://arjun-i.github.io/ALL-FSLResearch/post/step2/" class="color-inherit dim link">
+            2. Create Small Support Sample from ALL Dataset
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Defining characteristics of ALL and healthy cells look extremely similar as seen above.   ALL is caused by genetic mutations that tell the cells to continue growing and dividing instead of following the standard process. It causes rapid creation of immature white blood cells (lymphoblasts) inside the bone marrow instead of mature white blood cells (lymphocytes). There are two types of acute lymphoblastic leukemia: B-lymphoblastic leukemia and T-lymphoblastic leukemia.
+          An example of selecting a series of healthy images and cancerous images to form a support set   We plan on taking a small support sample from our dataset, consisting of around 4 images of the cancerous cells and 4 images of the healthy lymphocytes. This support sample will be later used to compare images from this support sample to a query image, which will allow the model to classify ALL.
         </div>
-          <a href="https://arjun-i.github.io/ALL-FSLResearch/about/why-all/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="https://arjun-i.github.io/ALL-FSLResearch/post/step2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="https://arjun-i.github.io/ALL-FSLResearch/post/step3/" class="color-inherit dim link">
+            3. Give Query and Use Small Support Sample of ALL/Healthy Images for Comparison and Classification
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          An example of our query image comparison method   Our model will compare the image from a query with the images in the support set in order to find the highest similarity score using a Sigmoid function, using a similar methodology to Logistic Regression Classification to classify the images in the support set into healthy and cancerous cells. This will hopefully allow us to classify the images based on cell type.
+        </div>
+          <a href="https://arjun-i.github.io/ALL-FSLResearch/post/step3/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -203,6 +228,29 @@
         
       </section>
 
+      
+      <section class="w-100">
+        <h1 class="f3">More</h1>
+        
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="https://arjun-i.github.io/ALL-FSLResearch/post/step4/" class="link black dim">
+              4. Check Classification Accuracy with Labeled Data
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="https://arjun-i.github.io/ALL-FSLResearch/post/datasetsummary/" class="link black dim">
+              C-NMC 2019 Challenge Dataset Summary
+            </a>
+          </h2>
+        
+
+        
+        
+          <a href="https://arjun-i.github.io/ALL-FSLResearch/post/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Procedural Summary</a>
+        
+        </section>
       
 
       </div>

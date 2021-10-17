@@ -133,12 +133,45 @@
             <div class="mb3 pa4 mid-gray overflow-hidden">
     
     <h1 class="f3 near-black">
-      <a href="https://arjun-i.github.io/ALL-FSLResearch/post/chapter-1/" class="link black dim">
-        Procedural Summary for Our Few Shot Learning Approach
+      <a href="https://arjun-i.github.io/ALL-FSLResearch/post/step1/" class="link black dim">
+        1. Train Siamese Network with Identical CNNs on Vast Unrelated Dataset (Ex. ImageNet or Omniglot)
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      For the purposes of our research, we will be using the C-NMC 2019 Challenge Dataset. Our dataset has only 73 subjects, but the amount of cell images received from the subjects can negate any potential issues with the lack of subjects. For our approach, we plan on using a Siamese Network to gain the ability to classify images based on similarity. Some pre-existing weights already exist, so they may be used to save any potential computational costs that may arise with the model.
+      We will first start the process of training a Siamese network with identical convolutional neural networks on a large dataset like ImageNet or Omniglot. These images are not required to similar to our cell-based dataset and are not expected to be, as we are training the Siamese Network for the sole purpose of gathering weights that we can use for our model based on a small support sample.
+ An Example of a Siamese Network in Action   These weights will help to classify similar images from different images given a query.
+    </div>
+  </div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+    <h1 class="f3 near-black">
+      <a href="https://arjun-i.github.io/ALL-FSLResearch/post/step2/" class="link black dim">
+        2. Create Small Support Sample from ALL Dataset
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      An example of selecting a series of healthy images and cancerous images to form a support set   We plan on taking a small support sample from our dataset, consisting of around 4 images of the cancerous cells and 4 images of the healthy lymphocytes. This support sample will be later used to compare images from this support sample to a query image, which will allow the model to classify ALL.
+    </div>
+  </div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+    <h1 class="f3 near-black">
+      <a href="https://arjun-i.github.io/ALL-FSLResearch/post/step3/" class="link black dim">
+        3. Give Query and Use Small Support Sample of ALL/Healthy Images for Comparison and Classification
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      An example of our query image comparison method   Our model will compare the image from a query with the images in the support set in order to find the highest similarity score using a Sigmoid function, using a similar methodology to Logistic Regression Classification to classify the images in the support set into healthy and cancerous cells. This will hopefully allow us to classify the images based on cell type.
     </div>
   </div>
 
@@ -146,6 +179,26 @@
       
     </aside>
     
+    <ul class="pagination pagination-default">
+      <li class="page-item disabled">
+        <a href="#" aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a href="#" aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item active">
+        <a href="#" aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="https://arjun-i.github.io/ALL-FSLResearch/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="https://arjun-i.github.io/ALL-FSLResearch/post/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="https://arjun-i.github.io/ALL-FSLResearch/post/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
   </article>
 
     </main>

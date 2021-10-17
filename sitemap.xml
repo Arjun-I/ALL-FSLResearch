@@ -2,11 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://arjun-i.github.io/ALL-FSLResearch/post/step1/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://arjun-i.github.io/ALL-FSLResearch/post/step2/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://arjun-i.github.io/ALL-FSLResearch/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://arjun-i.github.io/ALL-FSLResearch/post/step3/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://arjun-i.github.io/ALL-FSLResearch/post/step4/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://arjun-i.github.io/ALL-FSLResearch/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://arjun-i.github.io/ALL-FSLResearch/post/datasetsummary/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -15,10 +35,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://arjun-i.github.io/ALL-FSLResearch/post/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-1/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
