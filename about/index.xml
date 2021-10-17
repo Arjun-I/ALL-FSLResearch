@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Background on Academy of Science Research Portfolio</title>
-    <link>https://bbhatt03.github.io/FSL-ALL-Website/about/</link>
+    <link>https://arjun-i.github.io/ALL-FSLResearch/about/</link>
     <description>Recent content in Background on Academy of Science Research Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://bbhatt03.github.io/FSL-ALL-Website/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://arjun-i.github.io/ALL-FSLResearch/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Solving Problems with Current Methods and Past Research</title>
-      <link>https://bbhatt03.github.io/FSL-ALL-Website/about/problems-in-past/</link>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/about/problems-in-past/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bbhatt03.github.io/FSL-ALL-Website/about/problems-in-past/</guid>
+
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/about/problems-in-past/</guid>
       <description>The traditional classification by eye is extremely prone to human error due to the simple number of factors that affect a person’s perception, decision making, and thought process. It is also extremely time consuming and expensive as the pathologist would have to spend a great amount of time looking for the individual defining characteristics in the many different morphological variations of the cancerous and healthy cells. This can lead to a greater chance of misdiagnosis and worsening of the patient&amp;rsquo;s condition.</description>
     </item>
-    
+
     <item>
       <title>Traditional Classification of Acute Lymphoblastic Leukemia (ALL)</title>
-      <link>https://bbhatt03.github.io/FSL-ALL-Website/about/why-all/</link>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/about/why-all/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bbhatt03.github.io/FSL-ALL-Website/about/why-all/</guid>
+
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/about/why-all/</guid>
       <description>Defining characteristics of ALL and healthy cells look extremely similar as seen above.   ALL is caused by genetic mutations that tell the cells to continue growing and dividing instead of following the standard process. It causes rapid creation of immature white blood cells (lymphoblasts) inside the bone marrow instead of mature white blood cells (lymphocytes). There are two types of acute lymphoblastic leukemia: B-lymphoblastic leukemia and T-lymphoblastic leukemia.</description>
     </item>
-    
+
   </channel>
 </rss>
