@@ -1,77 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2021-2022 Research into ALL using Few Shot Learning on AOS Research Project</title>
-    <link>https://arjun-i.github.io/ALL-FSLResearch/</link>
-    <description>Recent content in 2021-2022 Research into ALL using Few Shot Learning on AOS Research Project</description>
+    <title>2021-2022 Research into ALL using Few Shot Learning on Academy of Science Research Portfolio</title>
+    <link>https://bbhatt03.github.io/FSL-ALL-Website/</link>
+    <description>Recent content in 2021-2022 Research into ALL using Few Shot Learning on Academy of Science Research Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Apr 2017 11:25:05 -0400</lastBuildDate><atom:link href="https://arjun-i.github.io/ALL-FSLResearch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2017 10:58:08 -0400</lastBuildDate><atom:link href="https://bbhatt03.github.io/FSL-ALL-Website/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Updates</title>
-      <link>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-6/</link>
-      <pubDate>Fri, 14 Apr 2017 11:25:05 -0400</pubDate>
-      
-      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-6/</guid>
-      <description>Here, we will list any notable updates about our research.</description>
-    </item>
-    
-    <item>
-      <title>Resources</title>
-      <link>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-5/</link>
-      <pubDate>Thu, 13 Apr 2017 11:15:58 -0400</pubDate>
-      
-      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chapter IV: Master Jacques Coppenole</title>
-      <link>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-4/</link>
-      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
-      
-      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-4/</guid>
-      <description>While the pensioner of Ghent and his eminence were exchanging very low bows and a few words in voices still lower, a man of lofty stature, with a large face and broad shoulders, presented himself, in order to enter abreast with Guillaume Rym; one would have pronounced him a bull-dog by the side of a fox. His felt doublet and leather jerkin made a spot on the velvet and silk which surrounded him.</description>
-    </item>
-    
-    <item>
-      <title>Research Mentors</title>
-      <link>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-3/</link>
-      <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
-      
-      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-3/</guid>
-      <description>Poor Gringoire! the din of all the great double petards of the Saint-Jean, the discharge of twenty arquebuses on supports, the detonation of that famous serpentine of the Tower of Billy, which, during the siege of Paris, on Sunday, the twenty-sixth of September, 1465, killed seven Burgundians at one blow, the explosion of all the powder stored at the gate of the Temple, would have rent his ears less rudely at that solemn and dramatic moment, than these few words, which fell from the lips of the usher, “His eminence, Monseigneur the Cardinal de Bourbon.</description>
-    </item>
-    
-    <item>
-      <title>Methodology</title>
-      <link>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-2/</link>
-      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
-      
-      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-2/</guid>
-      <description>1.Train Siamese Network with identical CNNs on vast unrelated dataset
-2.Create small support sample from ALL dataset
-3.Give query and Use Small Support Sample of ALL/Healthy Images for Comparison and Classification
-4.Check classification accuracy with labeled data</description>
-    </item>
-    
-    <item>
-      <title>Background Research</title>
-      <link>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-1/</link>
+      <title>Chapter I: The Grand Hall</title>
+      <link>https://bbhatt03.github.io/FSL-ALL-Website/post/chapter-1/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/chapter-1/</guid>
-      <description>Traditional approaches to ALL research are costly and can take a relatively long amount of time.</description>
+      <guid>https://bbhatt03.github.io/FSL-ALL-Website/post/chapter-1/</guid>
+      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
+The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>https://arjun-i.github.io/ALL-FSLResearch/contact/</link>
+      <title>Solving Problems with Current Methods and Past Research</title>
+      <link>https://bbhatt03.github.io/FSL-ALL-Website/about/problems-in-past/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://arjun-i.github.io/ALL-FSLResearch/contact/</guid>
-      <description>This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the the shortcode to make it work. Check out Formspree for a simple, free form service.
-Your Name Email Address An email address is required.  Message   </description>
+      <guid>https://bbhatt03.github.io/FSL-ALL-Website/about/problems-in-past/</guid>
+      <description>The traditional classification by eye is extremely prone to human error due to the simple number of factors that affect a person’s perception, decision making, and thought process. It is also extremely time consuming and expensive as the pathologist would have to spend a great amount of time looking for the individual defining characteristics in the many different morphological variations of the cancerous and healthy cells. This can lead to a greater chance of misdiagnosis and worsening of the patient&amp;rsquo;s condition.</description>
+    </item>
+    
+    <item>
+      <title>Traditional Classification of Acute Lymphoblastic Leukemia (ALL)</title>
+      <link>https://bbhatt03.github.io/FSL-ALL-Website/about/why-all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bbhatt03.github.io/FSL-ALL-Website/about/why-all/</guid>
+      <description>Defining characteristics of ALL and healthy cells look extremely similar as seen above.   ALL is caused by genetic mutations that tell the cells to continue growing and dividing instead of following the standard process. It causes rapid creation of immature white blood cells (lymphoblasts) inside the bone marrow instead of mature white blood cells (lymphocytes). There are two types of acute lymphoblastic leukemia: B-lymphoblastic leukemia and T-lymphoblastic leukemia.</description>
     </item>
     
   </channel>

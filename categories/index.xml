@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on AOS Research Project</title>
-    <link>https://arjun-i.github.io/ALL-FSLResearch/categories/</link>
-    <description>Recent content in Categories on AOS Research Project</description>
+    <title>Categories on Academy of Science Research Portfolio</title>
+    <link>https://bbhatt03.github.io/FSL-ALL-Website/categories/</link>
+    <description>Recent content in Categories on Academy of Science Research Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://arjun-i.github.io/ALL-FSLResearch/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://bbhatt03.github.io/FSL-ALL-Website/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
