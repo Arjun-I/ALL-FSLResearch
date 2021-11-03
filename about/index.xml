@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Background on Academy of Science Research Portfolio</title>
+    <title>Background on Arjun Iyer</title>
     <link>https://arjun-i.github.io/ALL-FSLResearch/about/</link>
-    <description>Recent content in Background on Academy of Science Research Portfolio</description>
+    <description>Recent content in Background on Arjun Iyer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://arjun-i.github.io/ALL-FSLResearch/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning Coursework</title>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/about/ml-background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/about/ml-background/</guid>
+      <description>I have completed the full Mathematics of Machine Learning specialization on Coursera offered by the Imperial College of London, which involves Linear Algebra, Multivariate Calculus, and Principal Component Analysis.
+I have also completed the Machine Learning A-Z™: Hands-On Python &amp;amp; R In Data Science course on Udemy, specifically the Python portion of this course.
+In addition to this coursework, I have also have knowledge regarding neural network architecture, specifically deep autoencoders, from my past research.</description>
+    </item>
+    
     <item>
       <title>Solving Problems with Current Methods and Past Research</title>
       <link>https://arjun-i.github.io/ALL-FSLResearch/about/problems-in-past/</link>

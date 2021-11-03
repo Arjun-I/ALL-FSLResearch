@@ -1,56 +1,139 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2021-2022 Research into ALL using Few Shot Learning on Academy of Science Research Portfolio</title>
+    <title>A Few-Shot Learning Approach to Acute Lymphoblastic Leukemia (ALL) Classification on Arjun Iyer</title>
     <link>https://arjun-i.github.io/ALL-FSLResearch/</link>
-    <description>Recent content in 2021-2022 Research into ALL using Few Shot Learning on Academy of Science Research Portfolio</description>
+    <description>Recent content in A Few-Shot Learning Approach to Acute Lymphoblastic Leukemia (ALL) Classification on Arjun Iyer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://arjun-i.github.io/ALL-FSLResearch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Train Siamese Network with Identical CNNs on Vast Unrelated Dataset (Ex. ImageNet or Omniglot)</title>
-      <link>https://arjun-i.github.io/ALL-FSLResearch/post/step1/</link>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/procedure/step1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/step1/</guid>
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/procedure/step1/</guid>
       <description>We will first start the process of training a Siamese network with identical convolutional neural networks on a large dataset like ImageNet or Omniglot. These images are not required to similar to our cell-based dataset and are not expected to be, as we are training the Siamese Network for the sole purpose of gathering weights that we can use for our model based on a small support sample.
  An Example of a Siamese Network in Action   These weights will help to classify similar images from different images given a query.</description>
     </item>
     
     <item>
       <title>2. Create Small Support Sample from ALL Dataset</title>
-      <link>https://arjun-i.github.io/ALL-FSLResearch/post/step2/</link>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/procedure/step2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/step2/</guid>
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/procedure/step2/</guid>
       <description>An example of selecting a series of healthy images and cancerous images to form a support set   We plan on taking a small support sample from our dataset, consisting of around 4 images of the cancerous cells and 4 images of the healthy lymphocytes. This support sample will be later used to compare images from this support sample to a query image, which will allow the model to classify ALL.</description>
     </item>
     
     <item>
       <title>3. Give Query and Use Small Support Sample of ALL/Healthy Images for Comparison and Classification</title>
-      <link>https://arjun-i.github.io/ALL-FSLResearch/post/step3/</link>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/procedure/step3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/step3/</guid>
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/procedure/step3/</guid>
       <description>An example of our query image comparison method   Our model will compare the image from a query with the images in the support set in order to find the highest similarity score using a Sigmoid function, using a similar methodology to Logistic Regression Classification to classify the images in the support set into healthy and cancerous cells. This will hopefully allow us to classify the images based on cell type.</description>
     </item>
     
     <item>
       <title>4. Check Classification Accuracy with Labeled Data</title>
-      <link>https://arjun-i.github.io/ALL-FSLResearch/post/step4/</link>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/procedure/step4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/step4/</guid>
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/procedure/step4/</guid>
       <description>After we have completed our comparison and classification step, we will work to check the classification accuracy of our model with the labeled data. We will work on fine-tuning the model if our classification accuracy isn&amp;rsquo;t close to our desired amount, and we will repeat this step as many times as possible until we reach a desired classification accuracy.
  An Image of a Portion of our CSV File, With Data Labels   </description>
     </item>
     
     <item>
       <title>C-NMC 2019 Challenge Dataset Summary</title>
-      <link>https://arjun-i.github.io/ALL-FSLResearch/post/datasetsummary/</link>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/procedure/datasetsummary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/datasetsummary/</guid>
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/procedure/datasetsummary/</guid>
       <description>For the purposes of our research, we will be using the C-NMC 2019 Challenge Dataset. Our dataset has only 73 subjects, but the amount of cell images received from the subjects can negate any potential issues with the lack of subjects. For our approach, we plan on using a Siamese Network to gain the ability to classify images based on similarity. Some pre-existing weights already exist, so they may be used to save any potential computational costs that may arise with the model.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Coursework</title>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/about/ml-background/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/about/ml-background/</guid>
+      <description>I have completed the full Mathematics of Machine Learning specialization on Coursera offered by the Imperial College of London, which involves Linear Algebra, Multivariate Calculus, and Principal Component Analysis.
+I have also completed the Machine Learning A-Z™: Hands-On Python &amp;amp; R In Data Science course on Udemy, specifically the Python portion of this course.
+In addition to this coursework, I have also have knowledge regarding neural network architecture, specifically deep autoencoders, from my past research.</description>
+    </item>
+    
+    <item>
+      <title>Meeting 1: Dr. Rajasekaran (Genentech) - 10/3/2021</title>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/scientist-meetings/meet-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/scientist-meetings/meet-1/</guid>
+      <description>Introduction with Dr. Kamal Rajasekaran
+We gave Dr. Rajasekaran a brief overview of the project, presenting both a slideshow and a discussion of our dataset we plan to use for the purposes of the project.
+Discussion of the Uniqueness of Our Proposal
+We discussed about potential contacts Dr. Rajasekaran might have in the Digital Pathology department at Genentech who are experts in machine learning in cancer research.
+Dr. Rajasekaran told us to refine the presentation a little bit to explain a little bit more about the parent model, child model, advantages, pitfalls, and how to overcome the pitfalls and forward it to him.</description>
+    </item>
+    
+    <item>
+      <title>Meeting 2: Dr. Schau (Genentech) - 10/13/2021</title>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/scientist-meetings/meet-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/scientist-meetings/meet-2/</guid>
+      <description>Key Topics Discussed During the Meeting
+Dr. Schau recommended taking already existing weights from ImageNet, rather than pre training a model based on ImageNet. He said that this is because pre-training an existing model takes a longer amount of time and is more computationally expensive.
+Discussion of Other Ways to Tackle Overfitting
+Dr. Schau recommended K-fold cross validation as a good strategy to tackle overfitting, specifically 5-Fold cross validation. He also has offered to help us with code review, which will take place after we actually start training the model, and any other issues concerning our project.</description>
+    </item>
+    
+    <item>
+      <title>Meeting 3: Dr. Schau (Genentech) - 10/18/2021</title>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/scientist-meetings/meet-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/scientist-meetings/meet-3/</guid>
+      <description>Questions for Dr. Schau
+Question 1: What kind of neural network design would be best for our research purposes? (eg. amount of nodes per layer, amount of layers, ex)
+Answer: There are a lot of pre-existing models in FSL, and we can use that for our research purposes. ResNet might be too big for our problem, as we are dealing with small nuclei. We could use ResNet-50, but we could expand it to other neural network architectures.</description>
+    </item>
+    
+    <item>
+      <title>November 3, 2021</title>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/post/post4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/post4/</guid>
+      <description>I have created a Digital Research Portfolio using Hugo and Github pages.</description>
+    </item>
+    
+    <item>
+      <title>October 2021</title>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/post/post2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/post2/</guid>
+      <description>We have recently come into contact with two researchers at Genentech, who have assisted us regarding this project. We plan on having more future meetings with these researchers, which will take place sometime soon. More information about these meetings can be found in the Scientist Meetings section of this portfolio.</description>
+    </item>
+    
+    <item>
+      <title>October 28, 2021</title>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/post/post1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/post1/</guid>
+      <description>I have set up a Collab Pro account, which I plan on using for its Cloud GPU and TPU capabilities which make is very useful for the purposes of machine learning. We plan on starting our model creation process very soon.</description>
+    </item>
+    
+    <item>
+      <title>SD-Layer: Stain Deconvolutional Layer for CNNs in Medical Microscopic Imaging</title>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/articles/second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/articles/second/</guid>
+      <description>Coming Soon!</description>
     </item>
     
     <item>
