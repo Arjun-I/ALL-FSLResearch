@@ -110,6 +110,19 @@ Answer: There are a lot of pre-existing models in FSL, and we can use that for o
     </item>
     
     <item>
+      <title>November 3, 2021 - November 17, 2021</title>
+      <link>https://arjun-i.github.io/ALL-FSLResearch/post/post5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arjun-i.github.io/ALL-FSLResearch/post/post5/</guid>
+      <description>11/10/21:
+New resource found on Kaggle for Building siamese networks: https://www.kaggle.com/krishnaprasad96/siamese-network/notebook
+We will first try to find already existing weights for a ResNet50 model to input into ImageNet.
+We discovered that ResNet can be used for the purposes of Siamese Networks, but more research needs to be done in order to understand the usages of it for the purposes of our Research Project.
+(Most past research has used ReLU as the activation function for all outputs, which we are currently looking at using for the purposes of our project.</description>
+    </item>
+    
+    <item>
       <title>October 2021</title>
       <link>https://arjun-i.github.io/ALL-FSLResearch/post/post2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
